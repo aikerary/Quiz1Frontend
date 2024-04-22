@@ -9,6 +9,12 @@ body{
     justify-content: center;
 }
 
+*{
+    font-family: 'Oleo Script', cursive;
+    margin: 20px;
+    position: relative;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -42,9 +48,4 @@ form button{
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     cursor: pointer;
-}
-
-*{
-    font-family: 'Oleo Script', cursive;
-    margin: 20px;
 }
