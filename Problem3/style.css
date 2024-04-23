@@ -27,6 +27,12 @@ body>*{
     justify-content: center;
 }
 
+.inputArea h3{
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+
 .inputArea input{
     width: 300px;
     height: 30px;
@@ -56,7 +62,9 @@ ul{
 }
 
 ul li{
+    text-transform: uppercase;
     animation: PopUp 1s;
+    margin: 20px 0;
 }
 
 /* Create a keyframe of PopUp */
