@@ -5,3 +5,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+#element{
+    width: 300px;
+    height: 300px;
+    transition: .5s;
+    background-color: blue;
+}
+
+#element.active{
+    background-color: red;
+}
