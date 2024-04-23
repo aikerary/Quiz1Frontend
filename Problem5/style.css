@@ -1,7 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 body{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    font-family: 'Jersey 10', cursive;
+    font-size: 1.4em;
+}
+
+#museum{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+#museum div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:350px;
+    height: 200px;
+    text-align: center;
+    text-wrap: wrap;
+    color: blue;
+    margin: 80px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 20px;
+    /* Box shadow */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#changeClass>*{
+    margin: 80px;
+}
+
+button{
+    font-size: 1.2em;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    cursor: pointer;
 }
